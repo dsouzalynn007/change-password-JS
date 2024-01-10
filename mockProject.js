@@ -46,6 +46,6 @@ form.addEventListener('submit',e=>{
         errormessage[0].innerHTML = ''
         errormessage[1].innerHTML = ''
         errormessage[2].innerHTML = ''
-        console.log('FORM SUBMITTED', oldpassword.value, newpassword.value, conpassword.value);
+        console.log('FORM SUBMITTED', oldpassword.value, newpassword.value, conpassword.value)
     }
 })
